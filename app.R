@@ -1,7 +1,7 @@
 #Data Cleaning and Analysis
 library(gdata)
 #Importing Excel
-df = read.xls (("C:/Users/hecto/Documents/CountryData.xlsx"), sheet = 1, header = TRUE)
+df = read.xls (("https://github.com/mabophd/crwq/files/5653743/CountryData.xlsx"), sheet = 1, header = TRUE)
 
 #Removing blank rows generated
 df <- df[c(1:21)]
